@@ -8,17 +8,20 @@ package Sprint1;
  * Copyright: MIT
  */
 public class Animals implements Food{
-
+    
+    //Skapar Enum konstanter
     public enum animalFood {HUNDFODER,KATTFODER,ORMPELLETS}
+    //Inkapslade variabler för superklassen
     protected String name;
     protected int weight;
 
+    //Konstruktor
     public Animals(String name, int weight) {
         this.name = name;
         this.weight = weight;
     }
 
-
+    /Interface
     @Override
     public void getFood() {
 
