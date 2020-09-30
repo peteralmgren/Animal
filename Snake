@@ -11,14 +11,17 @@ import javax.swing.*;
  */
 public class Snake extends Animals{
 
+    //Inkapslad variabel
     protected final int amount= 20;
+    //Instans av Enum ORMPELLETS
     animalFood snakeFood = animalFood.ORMPELLETS;
 
+    //Konstruktor
     public Snake(String name, int weight) {
         super(name, weight);
 
     }
-
+    //Interface
     @Override
     public void getFood() {
 
