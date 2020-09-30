@@ -10,7 +10,17 @@ package Sprint1;
 public class Animals implements Food{
     
     //Skapar Enum konstanter
-    public enum animalFood {HUNDFODER,KATTFODER,ORMPELLETS}
+    public enum animalFood {
+        HUNDFODER("Hundmat"),
+        KATTFODER("Kattmat"),
+        ORMPELLETS("Ormpellets");
+        public final String matnamn;
+        animalFood (String namn){
+            matnamn=namn;
+        }
+    }
+    
+    
     //Inkapslade variabler för superklassen
     protected String name;
     protected int weight;
