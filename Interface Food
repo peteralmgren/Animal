@@ -9,6 +9,7 @@ package Sprint1;
  */
 interface Food {
 
+     //Interfacemetod
      void getFood();
 
 }
