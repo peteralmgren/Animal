@@ -10,14 +10,16 @@ import javax.swing.*;
  * Copyright: MIT
  */
 public class Cat extends Animals {
-
+    //Instans av Enum KATTFODER
     animalFood catFood = animalFood.KATTFODER;
 
+    //Konstruktor
     public Cat(String name, int weight) {
         super(name, weight);
 
     }
-
+    
+    //Interface
     @Override
     public void getFood() {
 
