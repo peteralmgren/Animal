@@ -12,9 +12,6 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 
-        String exit = "avsluta";
-        boolean avsluta=false;
-
         Animals dog1 = new Dog("Sixten",5);
         Animals dog2 = new Dog("Dogge",10);
         Animals cat1 = new Cat("Venus",5);
