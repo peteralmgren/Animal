@@ -22,7 +22,7 @@ public class Dog extends Animals{
     @Override
     public void getFood() {
 
-        String s = (this.weight * 1000) /100 + " gram " + dogFood;
+        String s = (this.weight * 1000) /100 + " gram " + dogFood.matnamn;
         JOptionPane.showMessageDialog(null,s);
 
     }
